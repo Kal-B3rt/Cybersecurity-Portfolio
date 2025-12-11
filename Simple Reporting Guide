@@ -1,0 +1,9 @@
+Alert reporting is an important part of SOC. Below are some reminders and good practices when it comes to reporting alerts.
+
+USE the 5 W's:
+
+Who: Which user logs in, runs the command, or downloads the file
+What: What exact action or event sequence was performed
+When: When exactly did the suspicious activity start and ended
+Where: Which device, IP, or website was involved in the alert
+Why: The most important W, the reasoning for your final verdict
