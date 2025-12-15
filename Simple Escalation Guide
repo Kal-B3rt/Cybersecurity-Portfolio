@@ -6,3 +6,12 @@ Examples of when alerts should be escalated:
 2. When remediation actions fall outside assigned access levels or role-based permissions.
 3. Communication is required with law enforcement, customers, or higher levels of leadership.
 4. When I don't fully understand an alert and need help from more senior analyst. 
+
+
+Escalation example. Below is an example from the TryHackMe Room that practices escalation. 
+
+Report is as follows: 
+
+On March 27 at 19:56 (When), an alert was triggered detecting a spike in domain discovery–related commands (What) executed on the host DMZ-MSEXCHANGE-2013, a Windows Server 2012 R2 system (Where). The commands were executed under the NT AUTHORITY\SYSTEM context (Who) and included whoami, net group "Domain Admins" /domain, and Get-ADUser, which are commonly associated with Active Directory reconnaissance following initial compromise (Why).
+
+Process analysis revealed the commands were initiated by cmd.exe, spawned from revshell.exe, with the grandparent process identified as w3wp.exe, indicating potential exploitation of the IIS web service. Unless confirmed as authorized IT activity or part of legitimate automation, this behavior strongly suggests host compromise and requires immediate containment. Due to the severity of the findings and remediation requirements outside assigned permissions, the incident has been escalated for further investigation.
