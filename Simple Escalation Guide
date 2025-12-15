@@ -1,0 +1,8 @@
+Based on my previous encounters with Google Cybersecurity and TryHackMe SOC L1 Alert Reporting Room
+
+Examples of when alerts should be escalated:
+
+1. There is an indicator or an attack that needs to be immediately addressed.
+2. When remediation actions fall outside assigned access levels or role-based permissions.
+3. Communication is required with law enforcement, customers, or higher levels of leadership.
+4. When I don't fully understand an alert and need help from more senior analyst. 
