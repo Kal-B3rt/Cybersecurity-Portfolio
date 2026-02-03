@@ -14,6 +14,6 @@ Each project folder contains:
 
 ## Projects
 
-1. 
+1. Basics of Cybersecurity
 
-(More coming soon – updated weekly.)
+
